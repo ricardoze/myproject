@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+@media(min-width: 768px){
+  .tab-h2 {
+    font-size: 24px;
+  }
+  .tab-p {
+    font-size: 14px;
+  }
+  .text h3 {
+    font-size: 16px;
+		overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+  }
+  .text p {
+    font-size: 12px;
+  }
+  .tab2-text {
+    float: left;
+  }
+  .tab2-img {
+    float: right;
+  }
+  .jumbotron h1 {
+    font-size:30px;
+  }
+  .jumbotron h4 {
+    font-size:16px;
+  }
+  .info-content h4 {
+    font-size:16px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+  }
+  #about h3 {
+    font-size: 19px;
+  }
+  #about p {
+    font-size: 14px;
+  }
+}
+
+@media(min-width: 992px){
+  .tab-h2 {
+    font-size: 28px;
+  }
+  .tab-p {
+    font-size: 17px;
+  }
+  .text h3 {
+    font-size: 24px;
+  }
+  .text p {
+    font-size: 16px;
+  }
+  .tab2-text {
+    float: left;
+  }
+  .tab2-img {
+    float: right;
+  }
+  .jumbotron h1 {
+    font-size:33px;
+  }
+  .jumbotron h4 {
+    font-size:17px;
+  }
+  .info-content h4 {
+    font-size:18px;
+  }
+  #about h3 {
+    font-size: 20px;
+  }
+  #about p {
+    font-size: 15px;
+  }
+}
+
+@media(min-width: 1200px){
+  .tab-h2 {
+    font-size: 32px;
+  }
+  .tab-p {
+    font-size: 20px;
+  }
+  .text h3 {
+    font-size: 28px;
+  }
+  .text p {
+    font-size:20px;
+  }
+  .tab2-text {
+    float: left;
+  }
+  .tab2-img {
+    float: right;
+  }
+  .jumbotron h1 {
+    font-size:36px;
+  }
+  .jumbotron h4 {
+    font-size:18px;
+  }
+  .info-content h4 {
+    font-size:20px;
+  }
+  #about h3 {
+    font-size: 22px;
+  }
+  #about p {
+    font-size: 16px;
+  }
+}/* CSS Document */
+

@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+.info-content {
+  background: #fff;
+  margin: 0 0 20px 0;
+  box-shadow: 2px 2px 3px #ccc;
+}
+
+@media(min-width: 768px){
+  .tab-h2 {
+    font-size: 26px;
+  }
+  .tab-p {
+    font-size: 16px;
+  }
+  .text h3 {
+    font-size: 22px;
+  }
+  .text p {
+    font-size: 15px;
+  }
+  .tab2-text {
+    float: left;
+  }
+  .tab2-img {
+    float: right;
+  }
+  .jumbotron h1 {
+    font-size:30px;
+  }
+  .jumbotron h4 {
+    font-size:16px;
+  }
+  .info-content h4 {
+    font-size:16px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+  }
+  #about h3 {
+    font-size: 19px;
+  }
+  #about p {
+    font-size: 14px;
+  }
+}
+
+@media(min-width: 992px){
+  .tab-h2 {
+    font-size: 28px;
+  }
+  .tab-p {
+    font-size: 17px;
+  }
+  .text h3 {
+    font-size: 24px;
+  }
+  .text p {
+    font-size: 16px;
+  }
+  .tab2-text {
+    float: left;
+  }
+  .tab2-img {
+    float: right;
+  }
+  .jumbotron h1 {
+    font-size:33px;
+  }
+  .jumbotron h4 {
+    font-size:17px;
+  }
+  .info-content h4 {
+    font-size:18px;
+	
+  }
+  #about h3 {
+    font-size: 20px;
+  }
+  #about p {
+    font-size: 15px;
+  }
+}
+
+@media(min-width: 1200px){
+  .tab-h2 {
+    font-size: 30px;
+  }
+  .tab-p {
+    font-size: 18px;
+  }
+  .text h3 {
+    font-size: 26px;
+  }
+  .text p {
+    font-size:18px;
+  }
+  .tab2-text {
+    float: left;
+  }
+  .tab2-img {
+    float: right;
+  }
+  .jumbotron h1 {
+    font-size:36px;
+  }
+  .jumbotron h4 {
+    font-size:18px;
+  }
+  .info-content h4 {
+    font-size:20px;
+	
+  }
+  #about h3 {
+    font-size: 22px;
+  }
+  #about p {
+    font-size: 16px;
+  }
+}/* CSS Document */

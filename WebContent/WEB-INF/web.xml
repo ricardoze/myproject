@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>GCVersion1_5</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>GCServlet</servlet-name>
+    <servlet-class>web.gc.controller.GCServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GCServlet</servlet-name>
+    <url-pattern>/GCS</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>web.gc.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ExitServlet</servlet-name>
+    <servlet-class>web.gc.controller.ExitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExitServlet</servlet-name>
+    <url-pattern>/Exit</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddMovieServlet</servlet-name>
+    <servlet-class>web.gc.controller.MovieControl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddMovieServlet</servlet-name>
+    <url-pattern>/AddMovie</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DirectoryMovie</servlet-name>
+    <servlet-class>web.gc.controller.SelectMovie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DirectoryMovie</servlet-name>
+    <url-pattern>/directory</url-pattern>
+  </servlet-mapping>
+  
+  <listener>
+    <listener-class>web.gc.listener.AccessListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>web.gc.listener.SessionListener</listener-class>
+  </listener>
+  
+  <filter>
+	<filter-name>AuthorityFilter</filter-name>
+	<filter-class>web.gc.filter.AuthorityFilter</filter-class>
+	
+	</filter>
+	<filter-mapping>
+	<filter-name>AuthorityFilter</filter-name>
+	<url-pattern>/AddMovie</url-pattern>
+	</filter-mapping>
+</web-app>
